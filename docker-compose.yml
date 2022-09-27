@@ -1,0 +1,5 @@
+services:
+  plugin:
+    volumes:
+        - "./sudo/:/source"
+    build: .
